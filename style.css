@@ -160,24 +160,23 @@ header .btn-mobile{
 }
 .cursos-descricao {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: start;
-    gap: 40px;
-    padding-bottom: 50px;
-}
-.conteiner-cursos {
+ }
+.container-cursos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
     max-width: 55%;
-}
+    padding-top: 30px;
+    }
 .cursos-box {
     height: 106px;
     width: 106px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
@@ -186,16 +185,16 @@ header .btn-mobile{
 .cursos-box:hover {
     transform: scale(1.05);
 }
-.conteiner-descricao {
+.container-descricao {
     color: white;
     font-size: 20px;
     max-width: 40%;
 }
 
-@media (max-width:100px) {
+@media (max-width:1200px) {
 
-    .conteiner-descricao {
-        height: 100px;
+    .container-descricao {
+        width: 40%;
     }
 
     #educa {
@@ -205,8 +204,8 @@ header .btn-mobile{
 
     .cursos-descricao {
         display: flex;
-        flex-direction: column-reverse;
-        width: 100px;
+        flex-direction: row;
+        width: 100%;
         margin: 0 auto;
         gap:50px;
         padding-bottom: 70px;
@@ -219,7 +218,7 @@ header .btn-mobile{
 
 }
 @media (max-width:950px) {
-    .conteiner-cursos {
+    .container-cursos {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -227,8 +226,8 @@ header .btn-mobile{
         max-width: 300px;
     }
 
-    .conteiner-descricao {
-        max-width: 300px;
+    .container-descricao {
+        max-width: 40%;
     }
 
 }
@@ -237,6 +236,7 @@ header .btn-mobile{
     transition: ease-in-out 0.3s;
     height: 110px;
     width: 110px;
+    border-radius: 20px;
 }
 
 .cursos-box:hover .icones-cursos {
@@ -244,11 +244,11 @@ header .btn-mobile{
 }
 
 .cursos1{
-    background-image: url(image/color/estacio.png);
+    background-image: url(image/color/ufmg.jpg);
 }
 
 .cursos2 {
-    background-image: url(image/color/ufmg.png);
+    background-image: url(image/color/estacio.png);
 }
 
 .cursos3 {
@@ -272,11 +272,11 @@ header .btn-mobile{
 }
 
 .cursos8 {
-    background-image: url(image/color/oratoria.png);
+    background-image: url(image/color/oratoria.png.jpg);
 }
 
 .cursos9 {
-    background-image: url(image/color/conquer.png);
+    background-image: url(image/color/conquer.jpg);
 }
 .cursos10 {
     background-image: url(image/color/scrumstudy.png);
