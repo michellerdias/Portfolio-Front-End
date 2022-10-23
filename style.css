@@ -126,15 +126,15 @@ header .btn-mobile{
 }
 #about .container .title h1{
     color: #cba1c2;
-    padding: 0 40px;
+    padding: 0 150px;
     text-align: right;
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 2rem;
     letter-spacing: 4px;
 
 }
 #about .container .title p{
-    padding: 0 40px;
+    padding: 0 150px;
     color: #fff;
     font-size: 1.2rem;
     letter-spacing: 4px;
@@ -288,19 +288,18 @@ header .btn-mobile{
 /*===== Experiência =====*/
 #experiencia .container{
     width: 100%;
-    height: 100vh;
-    background: #24092B;
+    height: 120vh;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    background-color: #24092B;
+    flex-direction: column;
 }
 #experiencia .container .title h1{
     color: #cba1c2;
-    padding: 0 80px;
+    padding-top: 100px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 4px;
     padding-bottom: 70px;
 }
@@ -310,10 +309,10 @@ header .btn-mobile{
 #experiencia .container .card{
     position: absolute;
     width: 40%;
-    height: 80%;
+    height: 90%;
     left: 0;
     right: 0;
-    margin: 150px auto;
+    margin-left: 420px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -399,10 +398,20 @@ header .btn-mobile{
     padding: 50px;
     
 }
+#habilidades .Container .title h1{
+    color: #cba1c2;
+    padding-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    padding-top: 50px;
+}
+
 .C-card{
     display: flex;
     justify-content: space-around;
-    margin-top: 15%;
+    margin-top: 5%;
     text-align: center;
     flex-wrap: wrap;
 }
